@@ -7,7 +7,7 @@ function initMap() {
      mapTypeId: google.maps.MapTypeId.ROADMAP
      });
      // Create infoWindow
-     var contentString = '<h2>Hello, Katelyn</h2>';
+     var contentString = '<h3>Prudential Center</h3>' + '<p>800 Boylston St, Boston, MA 02199</p>';
      var infowindow = new google.maps.InfoWindow({
           content: contentString
      });
