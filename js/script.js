@@ -7,11 +7,10 @@ function initMap() {
      mapTypeId: google.maps.MapTypeId.ROADMAP
      });
      //Create marker
-     var markerOptions = {
-	     position: new google.maps.LatLng(-34.397, 150.644),
-	     map: map
-     };
-     var marker = new google.maps.Marker(markerOptions);
-     marker.setMap(map);
+     var marker = new google.maps.Marker({
+    	position: {lat: 42.34852, lng: -71.08230},
+    	map: map,
+    	title: 'Hello World!'
+     });
 }
 
