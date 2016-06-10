@@ -12,6 +12,6 @@ function initMap() {
 	     map: map
      };
      var marker = new google.maps.Marker(markerOptions);
-     //marker.setMap(map);
+     marker.setMap(map);
 }
 
