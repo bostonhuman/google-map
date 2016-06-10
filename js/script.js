@@ -8,9 +8,10 @@ function initMap() {
      });
      //Create marker
      var markerOptions = {
-	     position: new google.maps.LatLng(-34.397, 150.644)
+	     position: new google.maps.LatLng(-34.397, 150.644),
+	     map: map
      };
      var marker = new google.maps.Marker(markerOptions);
-     marker.setMap(map);
+     //marker.setMap(map);
 }
 
